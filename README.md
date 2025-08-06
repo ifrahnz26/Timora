@@ -150,30 +150,6 @@ MONGO_URI=mongodb+srv://your-production-mongodb-uri
 SESSION_SECRET=yourSecretKey
 ```
 
----
-
-## 📚 API Endpoints
-
-### Auth
-
-- `POST /api/auth/login`
-- `GET /api/auth/logout`
-
-### Booking
-
-- `POST /api/bookings`
-- `GET /api/bookings/available-slots`
-- `PATCH /api/bookings/:id/status`
-- `PATCH /api/bookings/:id/summary`
-- `PATCH /api/bookings/:id/update-event`
-- `GET /api/bookings/my`
-- `GET /api/bookings/hod`
-- `GET /api/bookings/incharge`
-- `POST /api/bookings/block`
-- `DELETE /api/bookings/block/:id`
-
----
-
 ## 🧠 Features
 
 - ✅ Role-based dashboards
@@ -182,27 +158,7 @@ SESSION_SECRET=yourSecretKey
 - ✅ Add event summaries and metadata
 - ✅ Conditional UI rendering based on role
 
----
 
-## 📦 Future Enhancements
-
-- 📊 Monthly analytics dashboard
-- 📅 Calendar integration
-- 📧 Email reminders
-- 🧾 Export to CSV/PDF
-- ☁️ Cloud deployment (Render/Vercel)
-
----
-
-## 📸 UI Preview
-
-_(Include screenshots or a Loom demo link here)_
-
----
-
-## 👥 Contributors
-
-- [Your Name / Team Name]
 
 ---
 
